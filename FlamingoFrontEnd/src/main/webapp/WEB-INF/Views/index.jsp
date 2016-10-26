@@ -12,11 +12,9 @@
 
 <body>
 <h2><center> Flamingo Designs </center></h2>
-Existing User 
-<a href="Login">login here</a> New User:
-<a href="Register">Register here</a>
 
-<hr>
+<jsp:include page="header.jsp"></jsp:include>
+
 
 <c:if test="$(userClickedLogin)">
 <jsp:include page="login.jsp"></jsp:include>
