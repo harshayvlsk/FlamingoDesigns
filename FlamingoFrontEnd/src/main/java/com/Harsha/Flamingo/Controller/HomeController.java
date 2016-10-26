@@ -14,6 +14,14 @@ public class HomeController {
 	{
 		return "index";
 	}
+	@RequestMapping("/register")
+	public String Register(Model m)
+	{
+		m.addAttribute("userClickedregister","true");
+		m.addAttribute("register message","successfully registered");
+		return "index";
+	}
+
 	@RequestMapping("/validate")
 	public String validate(@RequestParam(name="userID") String id, @RequestParam("password")String pwd,Model model)
 	{

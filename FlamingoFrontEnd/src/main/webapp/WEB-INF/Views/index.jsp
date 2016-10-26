@@ -24,8 +24,13 @@
 <jsp:include page="register.jsp"></jsp:include>
 </c:if>
 
+<c:if test="$(userClickedregister)">
+<jsp:include page="login.jsp"></jsp:include>
+</c:if>
+
 <c:out value="${Success}"/>
 <c:out value="${Error}"/>
+
 
 </body>
 </html>
