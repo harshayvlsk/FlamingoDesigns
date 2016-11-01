@@ -4,56 +4,63 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-
 public class HomeController {
+
 	@RequestMapping("/")
-	public String gotohome()
-	{
+	public String index(Model model) {
+		model.addAttribute("carousel","true");
 		return "index";
 	}
-	@RequestMapping("/register")
-	public String Register(Model m)
-	{
-		m.addAttribute("userClickedregister","true");
-		m.addAttribute("register message","successfully registered");
+	
+	@RequestMapping("/validate")
+	public String validate(@RequestParam("userid") String id, @RequestParam("pass") String pass1, Model model) {
+		if (id.equals("Harsha") && pass1.equals("Harshayvlsk")) {
+			model.addAttribute("successlogin", "successfully logged in");
+			return "index";
+		} else {
+			model.addAttribute("failedlogin", "Failed to log in");
+			return "login";
+		}
+	}
+
+	@RequestMapping("/login")
+	public String login(Model model) {
+		model.addAttribute("log", "true");
 		return "index";
 	}
 
-	@RequestMapping("/validate")
-	public String validate(@RequestParam(name="userID") String id, @RequestParam("password")String pwd,Model model)
-	{
-		if(id.equals("niit") && pwd.equals("niit"))
-			{
-				model.addAttribute("Success","Logged in");
-				return "index";
-			}
-		else
-			{
-			model.addAttribute("Error","Please Check");
-			return "index";
-			}
+	@RequestMapping("/registerHere")
+	public String registerHere(Model model) {
+		model.addAttribute("reg", "true");
+		return "index";
 	}
-	@RequestMapping("/Login")
-	public String login(Model model)
-	{
-		model.addAttribute("userClickedLogin","true");
+	
+	@RequestMapping("/register")
+	public String register(Model m){
+		m.addAttribute("reg1", "Successfully registered");
 		return "login";
 	}
-//	@RequestMapping("/Login")
-//	public ModelAndView login(Model model)
-//	{
-//		ModelAndView mv=new ModelAndView("index");
-//		mv.addObject("userClickedLogin","true");
-//		return mv;
-//	}
-//
-	@RequestMapping("/Register")
-	public String register(Model model)
+	@RequestMapping("/suppliers")
+	public String suppliers()
 	{
-		model.addAttribute("userClickedRegister","true");
-		return "register";
+		return "suppliers";
+	}
+	@RequestMapping("/category")
+	public String category()
+	{
+		return "category";
+	}
+	@RequestMapping("/springform")
+	public String springform()
+	{
+		return "springform";
+	}
+	@RequestMapping("/home")
+	public String home(Model model)
+	{
+		model.addAttribute("carousel","true");
+		return "index";
 	}
 }
