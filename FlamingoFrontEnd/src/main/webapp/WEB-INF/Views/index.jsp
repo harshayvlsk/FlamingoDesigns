@@ -22,6 +22,12 @@
 	<c:if test="${log}">
 		<jsp:include page="login.jsp"></jsp:include>
 	</c:if>
+	<c:if test="${About}">
+		<jsp:include page="aboutus.jsp"></jsp:include>
+	</c:if>
+	<c:if test="${Contact}">
+		<jsp:include page="contact.jsp"></jsp:include>
+	</c:if>
 	${failedlogin}
 	<c:if test="${reg}">
 		<jsp:include page="register.jsp"></jsp:include>

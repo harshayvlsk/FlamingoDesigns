@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>Welcome to KAFON</title>
+<title>Flamingo Designs</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -16,6 +16,14 @@
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
 	width: 70%;
 	margin: auto;
+}
+.navbar navbar-inverse navbar-bottom
+{
+min-height: 30px;
+margin-top: 10px;
+background-colour: blue;
+padding-top: 35px;
+colour: lightblue;
 }
 </style>
 </head>
@@ -80,10 +88,25 @@
 			</a> <a class="right carousel-control" href="#myCarousel" role="button"
 				data-slide="next"> <span
 				class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
+				<span class="sr-only">Next</span> 
 			</a>
 		</div>
 	</div>
-
+<nav class="navbar navbar-inverse navbar-bottom" style="padding:0 0 10px 0">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h5 id='footer-header'> SITEMAP </h3>
+                    <div class="col-sm-4" style="padding: 0 0 0 0px">
+                        <p>News</p>
+                        <p>contact</p>
+                    </div>
+                    <div class="col-sm-4" style="padding: 0 0 0 0px">
+                        <p>FAQ</p>
+                        <p>Privacy Policy</p>
+                    </div> 
+            </div>
+        </div>
+    </nav>
 </body>
 </html>

@@ -23,8 +23,48 @@
 			document.getElementById("login");
 		}
 	}
+/*	function validate(user)
+	{
+		if(user.firstname.value="")
+			{
+			alert("Please enter the firstname");
+			return false;
+			}
+	}
+	function validate(user)
+	{
+		if(user.lastname.value="")
+			{
+			alert("Please enter the lastname");
+			return false;
+			}
+	}
+	function validate(user)
+	{
+		if(user.lastname.value="")
+			{
+			alert("Please enter the lastname");
+			return false;
+			}
+	}
+	function validate(user)
+	{
+		if(user.phonenumber.value="")
+			{
+			alert("Please enter the phonenumber");
+			return false;
+			}
+	}
+	function validate(user)
+	{
+		if(user.password.value="")
+			{
+			alert("Please enter the password");
+			return false;
+			}
+	}*/
 </script>
-<title>Registration for online shopping</title>
+<title>Registration for Flamingo</title>
 <style>
 body {
 	background-image: url("login.JPG");

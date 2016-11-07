@@ -19,11 +19,22 @@ public class HomeController {
 		if (id.equals("Harsha") && pass1.equals("Harshayvlsk")) {
 			model.addAttribute("successlogin", "successfully logged in");
 			return "index";
-		} else {
+		}
+		else if(id.equals("admin") && pass1.equals("admin"))
+		{
+			model.addAttribute("successlogin", "successfully logged in");
+			return "headerAdmin";
+		}
+		else {
 			model.addAttribute("failedlogin", "Failed to log in");
 			return "login";
 		}
 	}
+//	@RequestMapping("/user")
+//	public String user()
+//	{
+//		return "index";
+//	}
 
 	@RequestMapping("/login")
 	public String login(Model model) {
@@ -47,6 +58,11 @@ public class HomeController {
 	{
 		return "suppliers";
 	}
+	@RequestMapping("/product")
+	public String product()
+	{
+		return "product";
+	}
 	@RequestMapping("/category")
 	public String category()
 	{
@@ -62,5 +78,17 @@ public class HomeController {
 	{
 		model.addAttribute("carousel","true");
 		return "index";
+	}
+	@RequestMapping("/aboutus")
+	public String aboutus(Model model)
+	{
+		model.addAttribute("About","true");
+		return "index";
+	}
+	@RequestMapping("/contact")
+	public String contact(Model model)
+	{
+		model.addAttribute("Contact","true");
+		return "contact";
 	}
 }
