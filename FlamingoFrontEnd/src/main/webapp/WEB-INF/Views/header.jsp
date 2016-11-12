@@ -4,7 +4,7 @@
 <html>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <head>
-<title>Flamingo Designs</title>
+<title></title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -37,8 +37,8 @@ h1, h5 {
 					<li><a href="#">category</a></li>
 					<li><a href="#">springform</a></li>
 				</ul></li>
-			<li><a href="#">Contact</a></li>
-			<li><a href="#">About</a></li>
+			<li><a href="contact">Contact</a></li>
+			<li><a href="aboutus">About</a></li>
 			<li><div color:white>Search</div> <input type="text"
 				placeholder="search,catogeries,fabrics...." size="45"></li>
 		</ul>

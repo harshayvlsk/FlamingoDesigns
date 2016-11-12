@@ -1,67 +1,73 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+
 <head>
-<title>Login page</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<style>
-body {
-	background-image: url("login.jpg");
-	background-repeat: no-repeat;
-	background-size: 600px;
-}
-
-div.login {
-	text-align: center;
-	border: 0px;
-	margin-top: 100px;
-	margin-left: 500px;
-	margin-right: 500px;
-	padding: 20px;
-}
-
-a {
-	text-decoration: none;
-}
-</style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <style>
+ .container
+ {text-align: Right;
+ vertical-align: text-top;}
+ h2{color:Blue;
+ padding-top: 35px}
+h3{colour:white;text-align:left;}
+  </style>
 </head>
-<body>
-<c:if test="${not empty failedlogin}">
-<jsp:include page="header.jsp"></jsp:include>
-</c:if>	
-<c:if test="${not empty reg1}">
-<jsp:include page="header.jsp"></jsp:include>
-</c:if>	
-${failedlogin}
-${reg1}
+<body background="C:\Users\Harsha\Desktop\Sofa\Harsha.jpg">
+<h1>Login to Flamingo</h1>
+<h3><center>Signin and Get access to your Orders,
+				Wishlist and Recommendations.<br><br> Signup to avail special offers.</center></h3>
+				<table>
+<section class="container">
+    <div class="login">
+      
+      <form method="post" action="validate">
+        <p><input type="text" name="userid" value="" placeholder="Username or Email"></p>
+        <p><input type="password" name="pass" value="" placeholder="Password"></p>
+        <p class="remember_me">
+          <label>
+            <input type="checkbox" name="remember_me" id="remember_me">
+            Remember me on this computer
+          </label>
+        </p>
+        <p class="submit"><input type="submit" name="commit" value="Login"></p>
+      </form>
+    </div>
 
-<div class="login">
-		<h1 id="login">Login</h1>
-		<form action="validate" method="POST">
-			<table style="margin: 40px;">
-				<tr>
-					<td><label for="userid">User Id</label></td>
-					<td>:</td>
-					<td><input type="text" placeholder="userid" name="userid"></td>
-				</tr>
-				<tr>
-					<td><label for="password">Password</label></td>
-					<td>:</td>
-					<td><input type="password" name="pass"></td>
-				</tr>
-			</table>
-			<a href="index"> <input type="submit" value="login"></a> <a
-				href="registerHere"> <input type="button" value="Register"></a>
-		</form>
-	</div>
+    <div class="login-help">
+      <p>Forgot your password? <a href="index.html">Click here to reset it</a>.</p>
+    </div>
+  </section></table>
+
+<div class="container">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				
+				</ol>
+				<div class="carousel-inner" role="listbox">
+
+				<div class="item active">
+				
+				<img src="C:\Users\Harsha\Desktop\Sofa\durham-sofa.jpg" alt="sofa" width="460" height="400">
+				<div class="carousel-caption">
+						<h2>Durham-style</h2></div></div>
+		
+				</div></div></div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+ 
 </body>
 </html>

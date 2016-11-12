@@ -5,10 +5,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
-<jsp:include page="header.jsp"></jsp:include>
 </head>
 <body>
-This is our contact number
+<img src="https://rukminim1.flixcart.com/merch/464/708/images/1478717807220.jpg?q=70" alt="COD" align="right"
+			style="width:304px;height:550px;">
 </body>
-<jsp:include page="footer.jsp"></jsp:include>
 </html>
