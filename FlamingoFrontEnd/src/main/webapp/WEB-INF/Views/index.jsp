@@ -21,10 +21,9 @@
 	<jsp:include page="header.jsp"></jsp:include>
 	
 	<c:if test="${carousel}">
-	<jsp:include page="Misc.jsp"></jsp:include>
+	
 		<jsp:include page="Carousel.jsp"></jsp:include>
-		<br><br><br><br><br>
-		<jsp:include page="Carousel2.jsp"></jsp:include>
+		
 		<jsp:include page="landing.jsp"></jsp:include>
 
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

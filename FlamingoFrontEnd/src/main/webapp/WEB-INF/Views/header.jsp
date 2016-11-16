@@ -16,6 +16,7 @@
 <style>
 h1, h5 {
 	text-align:center;
+	color:brown
 
 }
 </style>
@@ -38,7 +39,7 @@ h1, h5 {
 					<li><a href="#">springform</a></li>
 				</ul></li>
 			<li><a href="contact">Contact</a></li>
-			<li><a href="aboutus">About</a></li>
+				
 			<li><div color:white>Search</div> <input type="text"
 				placeholder="search,catogeries,fabrics...." size="45"></li>
 		</ul>

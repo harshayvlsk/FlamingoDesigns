@@ -13,10 +13,11 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
-
+.title
+{color:brown;}
 </style>
 </head>
-<body>
+<body background="C:\Users\Harsha\Desktop\Sofa\Back1.jpg">
 
 
 <div class="container">

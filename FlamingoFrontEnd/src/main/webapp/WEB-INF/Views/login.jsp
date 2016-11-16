@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
@@ -19,7 +19,7 @@
 h3{colour:white;text-align:left;}
   </style>
 </head>
-<body background="C:\Users\Harsha\Desktop\Sofa\Harsha.jpg">
+<body background="C:\Users\Harsha\Desktop\Sofa\Back1.jpg">
 <h1>Login to Flamingo</h1>
 <h3><center>Signin and Get access to your Orders,
 				Wishlist and Recommendations.<br><br> Signup to avail special offers.</center></h3>
@@ -45,29 +45,6 @@ h3{colour:white;text-align:left;}
     </div>
   </section></table>
 
-<div class="container">
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-			<!-- Indicators -->
-			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-				
-				</ol>
-				<div class="carousel-inner" role="listbox">
-
-				<div class="item active">
-				
-				<img src="C:\Users\Harsha\Desktop\Sofa\durham-sofa.jpg" alt="sofa" width="460" height="400">
-				<div class="carousel-caption">
-						<h2>Durham-style</h2></div></div>
-		
-				</div></div></div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
- 
+<br><br><br><br><br><br><br>
 </body>
 </html>

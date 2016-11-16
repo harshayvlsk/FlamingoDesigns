@@ -26,24 +26,15 @@ padding-left:300px;
 	<div class="container-fluid">
 	<div class="footer">
 		<ul class="nav navbar-nav">
-			<li><a href="#">About us</a></li>
+			<li><a href="aboutus">About</a></li>
 			<li><a href="#">Feedback</a></li>
 			<li><a href="#">Terms&Conditions</a></li>
 			<li><a href="#">&#169 2016</a></li>
-		
-<div class="container">
-
-    
-       
-            
- 
-                <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-3x social"></i></a>
-	            <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social"></i></a>
-	            <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social"></i></a>
-	            <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social"></i></a>
-
-    
-</div></ul>
+			<li><a href="https://www.facebook.com" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://plus.google.com" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="https://plus.Linkedin.com" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+			</ul>
 </div>
 </div>
 </nav>
