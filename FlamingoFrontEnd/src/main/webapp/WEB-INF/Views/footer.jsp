@@ -13,34 +13,42 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-.footer
-{
-padding-left:300px;
-}
+.muted pull-right{color:white;}
 </style>
 </head>
-<body>
-
-<footer>
-<nav class="navbar navbar-inverse">
-	<div class="container-fluid">
-	<div class="footer">
-		<ul class="nav navbar-nav">
-			<li><a href="aboutus">About</a></li>
-			<li><a href="#">Feedback</a></li>
-			<li><a href="#">Terms&Conditions</a></li>
-			<li><a href="#">&#169 2016</a></li>
-			<li><a href="https://www.facebook.com" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://twitter.com" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://plus.google.com" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
-            <li><a href="https://plus.Linkedin.com" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-			</ul>
-</div>
-</div>
-</nav>
-</footer>
-
-
+<body><footer>
+<div class="container">    
+<div class="row-fluid">
+		<div class="span12">
+			<div class="span2" style="width: 15%;">
+				<ul class="unstyled">
+				<hr>
+					<li><a href="aboutus">About us</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="contact">Contact & support</a></li>
+					<li><a href="#">Enterprise</a></li>
+					
+				</ul>
+			</div>
+			
+	
+	<div class="row-fluid">
+		<div class="span12">
+			<div class="span8">
+				<a href="#">Terms of Service</a>    
+				<a href="#">Privacy</a>    
+				<a href="#">Security</a>
+			</div>
+			<div class="span4">
+			 <a href="https://www.facebook.com"><i class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="https://twitter.com"><i class="fa fa-twitter-square fa-3x social"></i></a>
+	            <a href="https://plus.google.com"><i class="fa fa-google-plus-square fa-3x social"></i></a>
+	            <a href="harshayvlsk@gmail.com"><i class="fa fa-envelope-square fa-3x social"></i></a>
+				<p class="muted pull-right">© 2013 Company Name. All rights reserved</p>
+			</div>
+		</div>
+	</div>
+</div></footer>
 </body>
 </html>
 

@@ -14,36 +14,35 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
-h1, h5 {
-	text-align:center;
-	color:brown
-
+.nav>li>a{
+    font-size:14px;
+ padding:4px;   
 }
 </style>
 </head>
 <body>
-	<header>
-	<h1 >Flamingo Designs</h1>
-	
-	<nav class="navbar navbar-inverse">
-	<div class="container-fluid">
-		<ul class="nav navbar-nav">
-			<li class="active"><a href="home">Home<span
-					class="glyphicon glyphicon-home"></span>
-			</a></li>
-			<li class="dropdown"><a class="dropdown-toggle"
+	<div class="header-middle"><!--header-middle-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1" style="margin-left:4%">
+                    <div class="logo">
+                        <a href="#"></a>
+                      </div>
+                </div>
+                <div class="col-md-11" >
+                    <div class="shop-menu pull-right">
+                        <ul class="nav navbar-nav">
+                             <li ><a href="home" class="activeMenu">Home</a></li>
+                    <li ><a href="aboutus" >How It Works</a></li>
+                    <li ><a href="contact" >Contact us</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle"
 				data-toggle="dropdown" href="#">Categories <span class="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="#">suppliers</a></li>
 					<li><a href="#">category</a></li>
 					<li><a href="#">springform</a></li>
 				</ul></li>
-			<li><a href="contact">Contact</a></li>
-				
-			<li><div color:white>Search</div> <input type="text"
-				placeholder="search,catogeries,fabrics...." size="45"></li>
-		</ul>
-		<ul class="nav navbar-nav navbar-right">
+                   <ul class="nav navbar-nav navbar-right">
 			<c:if test="${not empty successlogin}">
 				<li><a href="#">my cart <span
 						class="glyphicon glyphicon-shopping-cart"></span></a></li>
@@ -57,7 +56,16 @@ h1, h5 {
 						class="glyphicon glyphicon-log-in"></span></a></li>
 			</c:if>
 		</ul>
-	</div>
-	</nav> </header>
-</body>
+  
+                        </ul>
+                    </div>
+                </div>
+               
+            </div>
+            <hr>
+            <div class="row">
+                <p style="font-family: initial; font-size: 50px; color:#C39B28; letter-spacing: 3px;">Flamingo Designs</p>
+            </div>
+        </div>
+    </div>    </body>
 </html>

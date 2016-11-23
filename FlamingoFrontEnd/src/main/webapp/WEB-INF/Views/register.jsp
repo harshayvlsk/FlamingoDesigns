@@ -17,7 +17,7 @@
 		<title>Admin</title>
 		<style>body, html{
      height: 100%;
- 	background-repeat: no-repeat;
+ 	
  	background-color: #d3d3d3;
  	font-family: 'Oxygen', sans-serif;
 }
@@ -77,7 +77,7 @@ input::-webkit-input-placeholder {
 }
 		</style>
 	</head>
-	<body background="http://www.pixelstalk.net/wp-content/uploads/2016/08/Rainning-wallpaper-hd-background.jpg">
+	<body background="C:\Users\Harsha\Desktop\Sofa\Back1.jpg">
 		<div class="container">
 			<div class="row main">
 				<div class="panel-heading">

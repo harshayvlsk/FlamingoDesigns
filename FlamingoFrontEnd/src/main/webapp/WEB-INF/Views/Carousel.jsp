@@ -31,42 +31,41 @@
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                     <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    
                 </ol>
                     
                 <div class="carousel-inner">
                     
-                    <div class="item active">
-                        <img src="C:\Users\Harsha\Desktop\Sofa\Sectional-Sofa.jpg" alt="First slide">
+                    <div class="item active"><a href="#">
+                        <img src="C:\Users\Harsha\Desktop\Sofa\c1.jpg" alt="First slide"></a>
                         <div class="carousel-caption">
-                            <h3>Sectional Sofa</h3>
                            
                         </div>
                     </div>
                         
-                    <div class="item">
-                        <img src="C:\Users\Harsha\Desktop\Sofa\Lawson-style.jpg" alt="Second slide">
+                    <div class="item"><a href="#">
+                        <img src="C:\Users\Harsha\Desktop\Sofa\c6.jpg" alt="Second slide"></a>
                         <div class="carousel-caption">
-                            <h3>Lawson style</h3>
-                            
+                           
                         </div>
                     </div>
                         
-                    <div class="item">
-                        <img src="C:\Users\Harsha\Desktop\Sofa\Camelback-sofa.jpg" alt="Third slide">
+                    <div class="item"><a href="#">
+                        <img src="C:\Users\Harsha\Desktop\Sofa\c3.jpg" alt="Third slide"></a>
                         <div class="carousel-caption">
-                            <h3>Camelback sofa</h3>
+                          
                             
+                        </div>
+                    </div>
+                       <div class="item"><a href="#">
+                        <img src="C:\Users\Harsha\Desktop\Sofa\c5.jpg" alt="fourth slide"></a>
+                        <div class="carousel-caption">
+                           
                         </div>
                     </div>
                     
-                     <div class="item">
-                        <img src="C:\Users\Harsha\Desktop\Sofa\Cabriole-Sofa.jpg " alt="Third slide">
-                        <div class="carousel-caption">
-                            <h3>Cabriole</h3>
-                        </div>
-                    </div>
-                        
+                    
                 </div>
                 
                 <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">

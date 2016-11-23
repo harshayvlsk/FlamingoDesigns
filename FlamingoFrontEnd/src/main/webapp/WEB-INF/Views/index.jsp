@@ -13,7 +13,6 @@
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <style>
-
 </style>
 </head>
 <body>
@@ -24,13 +23,10 @@
 	
 		<jsp:include page="Carousel.jsp"></jsp:include>
 		
-		<jsp:include page="landing.jsp"></jsp:include>
+		<jsp:include page="thumbnail.jsp"></jsp:include>
 
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		
 	</c:if>
-		
-		
+	
 	<c:if test="${log}">
 		<jsp:include page="login.jsp"></jsp:include>
 	</c:if>
@@ -50,9 +46,6 @@
 		<jsp:include page="Carousel.jsp"></jsp:include>
 	</c:if> 
 <jsp:include page="footer.jsp"></jsp:include>
-	
-	
-
 
 </body>
 </html>

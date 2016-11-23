@@ -20,7 +20,7 @@ h3{colour:white;text-align:left;}
   </style>
 </head>
 <body background="C:\Users\Harsha\Desktop\Sofa\Back1.jpg">
-<h1>Login to Flamingo</h1>
+<h1><center>Login to Flamingo</center></h1>
 <h3><center>Signin and Get access to your Orders,
 				Wishlist and Recommendations.<br><br> Signup to avail special offers.</center></h3>
 				<table>
